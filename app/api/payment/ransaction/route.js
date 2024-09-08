@@ -16,7 +16,7 @@ export async function POST(request) {
     lang: "vi",
   };
   try {
-    const response = await axios.post("https://paymentmomo.vercel.app/v2/gateway/api/query",
+    const response = await axios.post("https://test-payment.momo.vn/v2/gateway/api/query",
       requestBody,
       {
         headers: {
