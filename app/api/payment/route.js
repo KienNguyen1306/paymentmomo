@@ -40,7 +40,7 @@ export async function POST(request) {
 
   try {
     // Use axios to send the POST request
-    const response = await axios.post('https://test-payment.momo.vn/v2/gateway/api/create', requestBody, {
+    const response = await axios.post('https://paymentmomo.vercel.app/v2/gateway/api/create', requestBody, {
       headers: {
         'Content-Type': 'application/json',
       }

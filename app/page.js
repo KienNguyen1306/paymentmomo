@@ -24,7 +24,7 @@ export default function Home() {
       partnerCode: "MOMO",
       amount: amount,
       orderInfo: productName,
-      redirectUrl: "http://localhost:3000",
+      redirectUrl: "https://paymentmomo.vercel.app",
       ipnUrl: "https://webhook.site/b3088a6a-2d17-4f8d-a383-71389a6c600b",
       requestType: "payWithMethod",
       lang: "vi",
